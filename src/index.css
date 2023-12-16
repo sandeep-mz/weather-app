@@ -1,0 +1,57 @@
+/* Reset default margin and padding for all elements */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+/* Style the button */
+button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Style the headers */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the div containing the seasonal information */
+div {
+  margin-top: 20px;
+}
+
+/* Add general styling to images */
+/* img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+} */
+
+/* Example CSS */
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: #f0f0f0; Background color */
+  /* padding: 10px; */
+}
+
+.info-container h1 {
+  flex-basis: calc(25% - 10px); /* Adjustive size - 25% width with some spacing */
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffff;
+  background-color: #000000; /* Background color */
+  padding: 5px;
+}
